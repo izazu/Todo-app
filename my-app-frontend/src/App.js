@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 import React, { useState, useEffect } from "react";
-import TodoForm from "./TodoForm";
-import TodoList from "./TodoList";
+import TodoForm from "./componets/TodoForm";
+import TodoList from "./componets/TodoList";
 
 const App = () => {
   const [todos, setTodos] = useState([]);
